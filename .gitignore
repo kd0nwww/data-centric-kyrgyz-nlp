@@ -1,0 +1,40 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Virtual Environments
+venv/
+env/
+ENV/
+.env
+
+# Editor & IDE configurations
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Heavy Datasets (>100MB)
+data/final_raw_database.*
+final_raw_database.*
+
+# Pretrained Binaries & Model Weights
+lid.176.ftz
+*.ftz
+*.bin
+*.pt
+*.pth
+*.safetensors
+
+# Internal Submission Artifacts & Archives
+publication/
+*.docx
+*.rar
